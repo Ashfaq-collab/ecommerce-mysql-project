@@ -1,0 +1,13 @@
+INSERT INTO shipments
+(order_id, tracking_number, shipped_date, delivered_date, status)
+VALUES
+(25, 'TRK10001', '2026-01-06', '2026-01-09', 'DELIVERED'),
+(26, 'TRK10002', '2026-01-11', '2026-01-14', 'DELIVERED'),
+(27, 'TRK10003', '2026-01-16', NULL, 'IN_TRANSIT'),
+(28, 'TRK10004', '2026-02-03', '2026-02-06', 'DELIVERED'),
+(29, 'TRK10006', '2026-02-16', '2026-02-19', 'DELIVERED'),
+(30, 'TRK10007', '2026-03-02', NULL, 'IN_TRANSIT'),
+(31, 'TRK10008', '2026-03-06', '2026-03-09', 'DELIVERED'),
+(32, 'TRK10010', '2026-03-16', '2026-03-19', 'DELIVERED'),
+(34, 'TRK10012', '2026-04-02', '2026-04-05', 'DELIVERED');
+select * from shipments;
